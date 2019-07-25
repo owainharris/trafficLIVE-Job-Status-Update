@@ -1,5 +1,5 @@
 const axios = require("axios");
-const headers = require("./headers.js");
+const headers = require("./auth.js");
 const URL = `https://api.sohnar.com/TrafficLiteServer/openapi/job`;
 const fetching = require("./fetch");
 
